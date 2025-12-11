@@ -3172,125 +3172,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Project_library:Ntag_Antenna"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "AE"
-				(at 1.27 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Ntag_Antenna"
-				(at 1.27 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Loop antenna"
-				(at 1.27 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "loop antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Ntag_Antenna_0_1"
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -3.81 5.08) (xy 5.08 5.08) (xy 5.08 0) (xy 5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 3.81)
-						(xy 3.81 3.81) (xy 3.81 -1.27) (xy -1.27 -1.27) (xy -1.27 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 0 0)
-						(xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Ntag_Antenna_1_1"
-				(pin bidirectional line
-					(at -3.81 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Project_library:USB_A_PCB"
 			(pin_names
 				(offset 1.016)
@@ -4257,8 +4138,16 @@
 		(uuid "2c89bcc6-c3f3-47c9-8a1f-76f3511c8dce")
 	)
 	(no_connect
+		(at 125.73 82.55)
+		(uuid "368cf707-b02c-4ec0-a34c-1054f7d4ea68")
+	)
+	(no_connect
 		(at 138.43 97.79)
 		(uuid "b64283ca-fd54-4f19-9320-7ddc0ae1700e")
+	)
+	(no_connect
+		(at 151.13 85.09)
+		(uuid "b7a530db-05f7-40bf-9235-bbde1169d0e8")
 	)
 	(no_connect
 		(at 201.93 48.26)
@@ -4303,6 +4192,16 @@
 			(type default)
 		)
 		(uuid "0e50c637-8eb1-41e5-8763-d2ae36818450")
+	)
+	(wire
+		(pts
+			(xy 120.65 85.09) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118bf877-0c9c-416d-aa20-506b0c762ae8")
 	)
 	(wire
 		(pts
@@ -4426,6 +4325,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 72.39) (xy 153.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620db6b8-31f5-4aa1-bf74-30f9d89eed53")
+	)
+	(wire
+		(pts
 			(xy 67.31 105.41) (xy 68.58 105.41)
 		)
 		(stroke
@@ -4433,16 +4342,6 @@
 			(type default)
 		)
 		(uuid "64213ab9-5793-452b-83d0-37218d8d2a74")
-	)
-	(wire
-		(pts
-			(xy 120.65 85.09) (xy 120.65 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64abeafa-d813-494a-b085-6a872ca69046")
 	)
 	(wire
 		(pts
@@ -4506,16 +4405,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 68.58) (xy 132.08 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96a08114-85a4-4c48-97c1-d3c39faffd6e")
-	)
-	(wire
-		(pts
 			(xy 68.58 26.67) (xy 71.12 26.67)
 		)
 		(stroke
@@ -4543,16 +4432,6 @@
 			(type default)
 		)
 		(uuid "9f2519c9-6ea9-40fd-bd8a-34aeb691c92c")
-	)
-	(wire
-		(pts
-			(xy 153.67 82.55) (xy 153.67 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4417cba-bcd8-4bf5-a2c6-7fe216c75439")
 	)
 	(wire
 		(pts
@@ -4596,13 +4475,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 68.58) (xy 135.89 68.58)
+			(xy 153.67 72.39) (xy 153.67 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c907536b-9933-4464-a2e2-275e0093bed0")
+		(uuid "d02402f2-3634-4ed5-88c6-5f3fbea5e680")
 	)
 	(wire
 		(pts
@@ -5180,142 +5059,6 @@
 			(project ""
 				(path "/e246fc9e-4f6b-4825-8175-4f9f8724cfc1"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ef437a6-260f-4619-b074-efa5612fa683")
-		(property "Reference" "#PWR013"
-			(at 125.73 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eec3f102-8ea6-4b90-a505-4e2efa4817c5")
-		)
-		(instances
-			(project "PCBussinesCard"
-				(path "/e246fc9e-4f6b-4825-8175-4f9f8724cfc1"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Project_library:Ntag_Antenna")
-		(at 135.89 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24a5b352-0253-419e-b8bc-da971b4293b2")
-		(property "Reference" "AE1"
-			(at 142.24 61.5949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ntag_Antenna"
-			(at 142.24 64.1349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ProjectLibrary:Ntag_Antenna"
-			(at 135.89 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Loop antenna"
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "62f95f6d-49bd-4cb8-87bc-954ae4d7aebc")
-		)
-		(pin "1"
-			(uuid "1fe0890c-f261-4b19-9a7d-33d5e80ea087")
-		)
-		(instances
-			(project ""
-				(path "/e246fc9e-4f6b-4825-8175-4f9f8724cfc1"
-					(reference "AE1")
 					(unit 1)
 				)
 			)

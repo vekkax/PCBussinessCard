@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ProjectLibrary")(type "KiCad")(uri "${KIPRJMOD}/ProjectLibrary.pretty")(options "")(descr ""))
   (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/Imports/NT2H1311F0DTL/KiCad")(options "")(descr ""))
+  (lib (name "Imports")(type "KiCad")(uri "${KIPRJMOD}/Imports")(options "")(descr ""))
 )
