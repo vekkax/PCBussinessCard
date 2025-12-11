@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NT2H1311F0DTL
+D NFC Forum Type 2 Tag compliant IC with 144 bytes user memory and field detection
+K
+F https://www.nxp.com/docs/en/data-sheet/NTAG213F_216F.pdf
+$ENDCMP
+#
+#End Doc Library

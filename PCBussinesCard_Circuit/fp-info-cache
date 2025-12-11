@@ -1,4 +1,4 @@
-26558744005789017
+26564039460292811
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66646,6 +66646,13 @@ solder jumper open
 0
 3
 3
+KiCad
+SON50P200X150X50-5N
+NTAG213F
+Integrated Circuit
+0
+5
+5
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -94038,12 +94045,26 @@ Potentiometer vertical vishay
 3
 3
 ProjectLibrary
+Ntag_Antenna
+
+
+0
+2
+2
+ProjectLibrary
 PCB_USB_A
 
 
 0
 4
 4
+ProjectLibrary
+QRcode
+
+
+0
+0
+0
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf

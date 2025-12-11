@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NT2H1311F0DTL
+#/20450657/1665568/2.50/5/3/Integrated Circuit
+DEF NT2H1311F0DTL IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "NT2H1311F0DTL" 850 200 50 H V L CNN
+F2 "SON50P200X150X50-5N" 850 100 50 H I L CNN
+F3 "https://www.nxp.com/docs/en/data-sheet/NTAG213F_216F.pdf" 850 0 50 H I L CNN
+F4 "NFC Forum Type 2 Tag compliant IC with 144 bytes user memory and field detection" 850 -100 50 H I L CNN "Description"
+F5 "0.5" 850 -200 50 H I L CNN "Height"
+F6 "NXP" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "NT2H1311F0DTL" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 0 0 200 R 50 50 0 0 P
+X LB 2 0 -100 200 R 50 50 0 0 P
+X EP 5 500 -600 200 U 50 50 0 0 P
+X LA 4 1000 0 200 L 50 50 0 0 P
+X FD 3 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
