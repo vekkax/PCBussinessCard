@@ -1,4 +1,4 @@
-26564039727459188
+26562274591908867
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94045,13 +94045,6 @@ Potentiometer vertical vishay
 3
 3
 ProjectLibrary
-Ntag_Antenna
-
-
-0
-2
-2
-ProjectLibrary
 PCB_USB_A
 
 
@@ -94059,7 +94052,7 @@ PCB_USB_A
 4
 4
 ProjectLibrary
-QRcode
+QrCode
 
 
 0
