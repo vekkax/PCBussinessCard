@@ -1,0 +1,26 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "2",
+        "cols": "2"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "10mm",
+        "hwidth": "10mm",
+        "mindistance": "3mm",
+        "vcount": "2"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.5mm"
+    },
+    "framing": {
+        "type": "railslr",
+        "width": "8mm"
+    },
+    "post": {
+        "origin": "bl"
+    }
+}

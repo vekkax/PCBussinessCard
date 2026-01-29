@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -49,16 +49,16 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_type": "ssh",
-    "repo_username": "git",
-    "ssh_key": "C:\\Users\\santi\\.ssh\\id_rsa"
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
-    "filename": "PCBussinesCard.kicad_prl",
+    "filename": "PCBussinesCard_panel.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
