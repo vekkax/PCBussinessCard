@@ -1,8 +1,6 @@
 # PCB Business Card
 
-The **PCB Business Card** is a hardware project inspired by the  
-[Hackaday 2024 Business Card Contest](https://hackaday.io/contest/195949-2024-business-card-contest)  
-and the business cards created by [Salvaged Circuitry](https://www.youtube.com/watch?v=rEdWV4Augfc).
+The **PCB Business Card** is a hardware project inspired by the [Hackaday 2024 Business Card Contest](https://hackaday.io/contest/195949-2024-business-card-contest)   and the business cards created by [Salvaged Circuitry](https://www.youtube.com/watch?v=rEdWV4Augfc).
 
 It is a compact and creative way to showcase your capabilities as a hardware designer while sharing your contact details. Beyond being a novelty, the card also functions as a (slightly impractical, but fun) development platform.
 
@@ -23,8 +21,7 @@ The board features:
 
 The USB connector supplies power to the microcontroller through a **3.3 V LDO regulator** and includes ESD protection on the data lines using a **TVS diode**. A power LED is placed next to the connector for visual feedback.
 
-The NFC tag is connected to a custom PCB antenna designed using NXP’s  
-[NFC Antenna Design Tool](https://community.nxp.com/t5/NFC/bd-p/nfc).  
+The NFC tag is connected to a custom PCB antenna designed using NXP’s [NFC Antenna Design Tool](https://community.nxp.com/t5/NFC/bd-p/nfc).  
 This tool provides a convenient interface to design PCB NFC antennas (especially for NXP tags/readers) based on user-defined constraints. ST also provides a similar [antenna design tool](https://eds.st.com/antenna/#/).
 
 ---
@@ -84,7 +81,7 @@ The implementation was based on and adapted from the following guide:
 
 ### Flash Memory Configuration
 
-According to the **RM0394 Reference Manual**, the STM32L452 has **512 KB of flash memory** organized in a single bank.
+According to the [RM0394 Reference Manual](Datasheets/rm0394-stm32l41xxx42xxx43xxx44xxx45xxx46xxx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf), the STM32L452 has **512 KB of flash memory** organized in a single bank.
 
 ![Flash memory single bank organization](Images/flash_module_organization.png)
 
@@ -134,7 +131,7 @@ A helper function is added to write data to flash memory:
 ```c
 #include <stdbool.h>
 
-#define USB_FLASH_START_ADDRESS   (  0x08080000 )    //USB Flash Address (Sector 6 in STM32F767Zi)
+#define USB_FLASH_START_ADDRESS   (  0x0803F800 )    //USB Flash Address (page 127 in STM32L452)
 #define TOTAL_USB_DEVICE_SIZE   ( STORAGE_BLK_NBR * STORAGE_BLK_SIZ )
 
 /**
