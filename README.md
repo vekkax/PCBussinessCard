@@ -14,12 +14,12 @@ The PCB was designed using **KiCad**, along with plugins such as **KiKit** and t
 
 The board features:
 
-- **STM32L452CEU6** microcontroller  
-- **NT2H1311F0DTLH** NFC tag  
+- **[STM32L452CEU](Datasheets\stm32l452ce.pdf)** microcontroller  
+- **[NT2H1311F0DTLH](Datasheets\NTAG213F_216F.pdf)** NFC tag  
 - Integrated **PCB USB connector**  
 - Optional **pin headers**, allowing the card to be used as a development board  
 
-The USB connector supplies power to the microcontroller through a **3.3 V LDO regulator** and includes ESD protection on the data lines using a **TVS diode**. A power LED is placed next to the connector for visual feedback.
+The USB connector supplies power to the microcontroller through a **[3.3 V LDO regulator](Datasheets\LM3480.pdf)** and includes ESD protection on the data lines using a **TVS diode**. A power LED is placed next to the connector for visual feedback.
 
 The NFC tag is connected to a custom PCB antenna designed using NXP’s [NFC Antenna Design Tool](https://community.nxp.com/t5/NFC/bd-p/nfc).  
 This tool provides a convenient interface to design PCB NFC antennas (especially for NXP tags/readers) based on user-defined constraints. ST also provides a similar [antenna design tool](https://eds.st.com/antenna/#/).
